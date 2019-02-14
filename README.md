@@ -90,7 +90,7 @@ d68e3b96071e        nginx:latest               "nginx -g 'daemon of…"   11 min
 ### Validate the setup:
 1. goto the HTTP url [http://localhost/jenkins](http://localhost/jenkins/) and notice you are redirected to HTTPS
 2. create a jenkins job and issue the command `sudo docker ps` and view the host docker running containers
-3.
+
 
 ### Deep dive nginx configuration file
 instructions go here
