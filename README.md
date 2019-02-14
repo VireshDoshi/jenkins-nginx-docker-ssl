@@ -96,10 +96,10 @@ d68e3b96071e        nginx:latest               "nginx -g 'daemon of…"   11 min
 instructions go here
 
 
-### Deep dive the docker-compose file
+### Deep dive the docker-compose.yml file
 instructions go here
 
 
-## References
+### References
 
 [1] inspired by : [https://github.com/mjstealey/jenkins-nginx-docker](https://github.com/mjstealey/jenkins-nginx-docker)
