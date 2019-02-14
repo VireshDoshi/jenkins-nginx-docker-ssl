@@ -93,11 +93,11 @@ d68e3b96071e        nginx:latest               "nginx -g 'daemon of…"   11 min
 
 
 ### Deep dive nginx configuration file
-instructions go here
+- instructions go here
 
 
 ### Deep dive the docker-compose.yml file
-instructions go here
+- instructions go here
 
 
 ### References
