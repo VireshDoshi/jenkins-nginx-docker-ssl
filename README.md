@@ -96,7 +96,8 @@ d68e3b96071e        nginx:latest               "nginx -g 'daemon of…"   11 min
 - instructions go here
 
 
-### Deep dive the docker-compose.yml file
+### Deep dive the docker-compose.yml file
+
 - instructions go here
 
 
