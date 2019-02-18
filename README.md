@@ -100,6 +100,20 @@ d68e3b96071e        nginx:latest               "nginx -g 'daemon of…"   11 min
 
 - instructions go here
 
+### Azure Active Directory Integration
+Follow these instructions for setting up Azure Active Directory Authentication with Jenkins. You will need an Azure subscription to achieve this. For POC purposes, use a trial account.
+
+1. Install `Azure AD` Jenkins Plugin
+2. Create a new Application Registration
+3. add in a redirect url `<<HTTPS_URL>>/securityRealm/finishLogin`
+4. Note down the `application id` and the `tenant id ( directory id)`
+5. Create a new client Application secret
+6. Change the `Windows Azure Active Directory` API permissions and add the following
+    * Application Permissions: Read directory data
+    * Delegated Permissions: Sign in and read user profiles
+7. Enabled `ID tokens` tick box
+    * In `Authentication` page, select `ID tokens` under `Implicit grant`.
+
 
 ### References
 
