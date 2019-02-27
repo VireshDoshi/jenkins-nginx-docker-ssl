@@ -109,8 +109,9 @@ Follow these instructions for setting up Azure Active Directory Authentication w
 4. Note down the `application id` and the `tenant id ( directory id)`
 5. Create a new client Application secret
 6. Change the `Windows Azure Active Directory` API permissions and add the following
-    * Application Permissions: Read directory data
-    * Delegated Permissions: Sign in and read user profiles
+    * Application Permissions: `Read directory data`
+    * Delegated Permissions: `Sign in and read user profiles`
+    * Ensure to click on `grant permissions`
 7. Enabled `ID tokens` tick box
     * In `Authentication` page, select `ID tokens` under `Implicit grant`.
 
